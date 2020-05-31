@@ -1,0 +1,12 @@
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\bin\Debug\Ejemplo for.exe.config
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\bin\Debug\Ejemplo for.exe
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\bin\Debug\Ejemplo for.pdb
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\bin\Debug\Ejemplo for.xml
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\obj\Debug\Ejemplo for.vbprojAssemblyReference.cache
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\obj\Debug\Ejemplo_for.Form1.resources
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\obj\Debug\Ejemplo_for.Resources.resources
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\obj\Debug\Ejemplo for.vbproj.GenerateResource.cache
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\obj\Debug\Ejemplo for.vbproj.CoreCompileInputs.cache
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\obj\Debug\Ejemplo for.exe
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\obj\Debug\Ejemplo for.xml
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Ejemplo for\Ejemplo for\obj\Debug\Ejemplo for.pdb

@@ -1,0 +1,24 @@
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\bin\Debug\Factura.exe.config
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\bin\Debug\Factura.exe
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\bin\Debug\Factura.pdb
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\bin\Debug\Factura.xml
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\obj\Debug\Factura.vbprojAssemblyReference.cache
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\obj\Debug\Factura.Facturación.resources
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\obj\Debug\Factura.Resources.resources
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\obj\Debug\Factura.vbproj.GenerateResource.cache
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\obj\Debug\Factura.vbproj.CoreCompileInputs.cache
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\obj\Debug\Factura.exe
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\obj\Debug\Factura.xml
+C:\Users\hilda\OneDrive\Escritorio\Universidad Segundo periodo\Factura\Factura\obj\Debug\Factura.pdb
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\bin\Debug\Factura.exe.config
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\bin\Debug\Factura.exe
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\bin\Debug\Factura.pdb
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\bin\Debug\Factura.xml
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\obj\Debug\Factura.vbprojAssemblyReference.cache
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\obj\Debug\Factura.Facturación.resources
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\obj\Debug\Factura.Resources.resources
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\obj\Debug\Factura.vbproj.GenerateResource.cache
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\obj\Debug\Factura.vbproj.CoreCompileInputs.cache
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\obj\Debug\Factura.exe
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\obj\Debug\Factura.xml
+C:\Users\hilda\OneDrive\Escritorio\Programas tarea\Factura\Factura\obj\Debug\Factura.pdb
