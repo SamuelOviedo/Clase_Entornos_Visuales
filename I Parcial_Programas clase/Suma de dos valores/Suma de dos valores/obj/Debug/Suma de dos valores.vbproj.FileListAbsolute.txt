@@ -1,0 +1,12 @@
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\bin\Debug\Suma de dos valores.exe.config
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\bin\Debug\Suma de dos valores.exe
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\bin\Debug\Suma de dos valores.pdb
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\bin\Debug\Suma de dos valores.xml
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\obj\Debug\Suma de dos valores.vbprojAssemblyReference.cache
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\obj\Debug\Suma_de_dos_valores.Form1.resources
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\obj\Debug\Suma_de_dos_valores.Resources.resources
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\obj\Debug\Suma de dos valores.vbproj.GenerateResource.cache
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\obj\Debug\Suma de dos valores.vbproj.CoreCompileInputs.cache
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\obj\Debug\Suma de dos valores.exe
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\obj\Debug\Suma de dos valores.xml
+C:\Users\hilda\OneDrive\Escritorio\Suma de dos valores\Suma de dos valores\obj\Debug\Suma de dos valores.pdb

@@ -1,0 +1,11 @@
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\obj\Debug\Facturación.Form1.resources
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\obj\Debug\Facturación.Resources.resources
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\obj\Debug\Facturación.vbproj.GenerateResource.cache
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\obj\Debug\Facturación.vbproj.CoreCompileInputs.cache
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\bin\Debug\Facturación.exe.config
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\bin\Debug\Facturación.exe
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\bin\Debug\Facturación.pdb
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\bin\Debug\Facturación.xml
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\obj\Debug\Facturación.exe
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\obj\Debug\Facturación.xml
+C:\Users\hilda\OneDrive\Escritorio\Facturación\Facturación\obj\Debug\Facturación.pdb
