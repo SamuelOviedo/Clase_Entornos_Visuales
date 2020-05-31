@@ -1,0 +1,12 @@
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\bin\Debug\Operaciones matemáticas.exe.config
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\bin\Debug\Operaciones matemáticas.exe
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\bin\Debug\Operaciones matemáticas.pdb
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\bin\Debug\Operaciones matemáticas.xml
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\obj\Debug\Operaciones matemáticas.vbprojAssemblyReference.cache
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\obj\Debug\Operaciones_matemáticas.Form1.resources
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\obj\Debug\Operaciones_matemáticas.Resources.resources
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\obj\Debug\Operaciones matemáticas.vbproj.GenerateResource.cache
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\obj\Debug\Operaciones matemáticas.vbproj.CoreCompileInputs.cache
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\obj\Debug\Operaciones matemáticas.exe
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\obj\Debug\Operaciones matemáticas.xml
+C:\Users\hilda\OneDrive\Escritorio\Operaciones matemáticas\Operaciones matemáticas\obj\Debug\Operaciones matemáticas.pdb
