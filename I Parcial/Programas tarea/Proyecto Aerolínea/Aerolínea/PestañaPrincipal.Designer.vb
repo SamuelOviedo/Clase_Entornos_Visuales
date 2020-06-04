@@ -59,6 +59,7 @@ Partial Class PestañaPrincipal
         Me.PagosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PagarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.txtTotal = New System.Windows.Forms.TextBox()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -69,6 +70,7 @@ Partial Class PestañaPrincipal
         Me.GroupBox5.SuspendLayout()
         CType(Me.ErrorValidacion, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
         Me.SuspendLayout()
         '
         'PictureBox2
@@ -164,7 +166,7 @@ Partial Class PestañaPrincipal
         Me.btnBuscarVuelo.BackColor = System.Drawing.Color.DimGray
         Me.btnBuscarVuelo.Font = New System.Drawing.Font("Shrikhand", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBuscarVuelo.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.btnBuscarVuelo.Location = New System.Drawing.Point(672, 553)
+        Me.btnBuscarVuelo.Location = New System.Drawing.Point(657, 553)
         Me.btnBuscarVuelo.Name = "btnBuscarVuelo"
         Me.btnBuscarVuelo.Size = New System.Drawing.Size(137, 73)
         Me.btnBuscarVuelo.TabIndex = 4
@@ -407,11 +409,24 @@ Partial Class PestañaPrincipal
         '
         'txtTotal
         '
+        Me.txtTotal.BackColor = System.Drawing.Color.Silver
         Me.txtTotal.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotal.Location = New System.Drawing.Point(848, 572)
+        Me.txtTotal.Location = New System.Drawing.Point(22, 33)
         Me.txtTotal.Name = "txtTotal"
         Me.txtTotal.Size = New System.Drawing.Size(132, 31)
         Me.txtTotal.TabIndex = 13
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.BackColor = System.Drawing.Color.Silver
+        Me.GroupBox6.Controls.Add(Me.txtTotal)
+        Me.GroupBox6.Font = New System.Drawing.Font("Russo One", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox6.Location = New System.Drawing.Point(826, 539)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(169, 75)
+        Me.GroupBox6.TabIndex = 14
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "Total"
         '
         'PestañaPrincipal
         '
@@ -420,7 +435,7 @@ Partial Class PestañaPrincipal
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1033, 685)
-        Me.Controls.Add(Me.txtTotal)
+        Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.GroupBox4)
@@ -451,6 +466,8 @@ Partial Class PestañaPrincipal
         CType(Me.ErrorValidacion, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox6.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -491,4 +508,5 @@ Partial Class PestañaPrincipal
     Public WithEvents chkPrimeraClase As CheckBox
     Public WithEvents chkeconomica As CheckBox
     Public WithEvents txtTotal As TextBox
+    Friend WithEvents GroupBox6 As GroupBox
 End Class

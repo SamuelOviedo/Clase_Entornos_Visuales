@@ -138,6 +138,97 @@
             txtTotal.Text = total
         End If
 
+        '--------------------------------------------------------------------------------------------------------------------------------
+        'España
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 0) And (cmbLugarViajar.SelectedIndex = 0) And (chkPrimeraClase.Checked = True) Then
+            total = españa * 1.2
+            txtTotal.Text = total
+        End If
+
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 1) And (cmbLugarViajar.SelectedIndex = 0) And (chkPrimeraClase.Checked = True) Then
+            total = (españa - 1000) * 1.2
+            txtTotal.Text = total
+        End If
+
+        'economica España
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 0) And (cmbLugarViajar.SelectedIndex = 0) And (chkeconomica.Checked = True) Then
+            total = españa
+            txtTotal.Text = total
+        End If
+
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 1) And (cmbLugarViajar.SelectedIndex = 0) And (chkeconomica.Checked = True) Then
+            total = (españa - 1000)
+            txtTotal.Text = total
+        End If
+
+        'CostaRica
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 0) And (cmbLugarViajar.SelectedIndex = 1) And (chkPrimeraClase.Checked = True) Then
+            total = costaRica * 1.2
+            txtTotal.Text = total
+        End If
+
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 1) And (cmbLugarViajar.SelectedIndex = 1) Then
+
+        ElseIf (chkPrimeraClase.Checked = True) Then
+            total = (costaRica - 1000) * 1.2
+            txtTotal.Text = total
+        End If
+
+        'costaRica economica
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 0) And (cmbLugarViajar.SelectedIndex = 1) And (chkeconomica.Checked = True) Then
+            total = costaRica
+            txtTotal.Text = total
+        End If
+
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 1) And (cmbLugarViajar.SelectedIndex = 1) And (chkPrimeraClase.Checked = True) Then
+            total = (costaRica - 1000)
+            txtTotal.Text = total
+        End If
+
+        'panama
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 0) And (cmbLugarViajar.SelectedIndex = 2) And (chkPrimeraClase.Checked = True) Then
+            total = panama * 1.2
+            txtTotal.Text = total
+        End If
+
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 1) And (cmbLugarViajar.SelectedIndex = 2) And (chkPrimeraClase.Checked = True) Then
+            total = panama * 1.2
+            txtTotal.Text = total
+        End If
+
+        'panama economica
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 0) And (cmbLugarViajar.SelectedIndex = 2) And (chkeconomica.Checked = True) Then
+            total = panama * 1.2
+            txtTotal.Text = total
+        End If
+
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 1) And (cmbLugarViajar.SelectedIndex = 2) And (chkeconomica.Checked = True) Then
+            total = panama * 1.2
+            txtTotal.Text = total
+        End If
+
+        'estadosUnidos
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 0) And (cmbLugarViajar.SelectedIndex = 3) And (chkPrimeraClase.Checked = True) Then
+            total = estadosUnidos * 1.2
+            txtTotal.Text = total
+        End If
+
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 1) And (cmbLugarViajar.SelectedIndex = 3) And (chkPrimeraClase.Checked = True) Then
+            total = (estadosUnidos - 1000) * 1.2
+            txtTotal.Text = total
+        End If
+
+        'estadosUnidos economica
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 0) And (cmbLugarViajar.SelectedIndex = 3) And (chkeconomica.Checked = True) Then
+            total = estadosUnidos * 1.2
+            txtTotal.Text = total
+        End If
+
+        If (chkSoloIda.Checked = True) And (cmbLugarSalida.SelectedIndex = 1) And (cmbLugarViajar.SelectedIndex = 3) And (chkeconomica.Checked = True) Then
+            total = (estadosUnidos - 1000) * 1.2
+            txtTotal.Text = total
+        End If
+
     End Sub
 
     Private Sub chkIdayVuelta_CheckedChanged(sender As Object, e As EventArgs) Handles chkIdayVuelta.CheckedChanged
