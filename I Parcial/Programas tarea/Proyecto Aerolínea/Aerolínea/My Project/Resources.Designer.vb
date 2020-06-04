@@ -63,9 +63,79 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _0d516fdae393c3d30d05eb1251609cc4() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("0d516fdae393c3d30d05eb1251609cc4", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property a549ec58b66a38b3dc20421bdf0b3cc1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("a549ec58b66a38b3dc20421bdf0b3cc1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Bienvenida() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Bienvenida", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Bienvenida1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Bienvenida1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property cf848b0025c0c2ec39280e8cb4806384() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cf848b0025c0c2ec39280e8cb4806384", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property d27aa89f2351136f1cda1bd8af82b3f1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("d27aa89f2351136f1cda1bd8af82b3f1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property elegante_fondo_oscuro_detalles_dorados_23_2148433685() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("elegante-fondo-oscuro-detalles-dorados_23-2148433685", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property money_falling_from_above_isolated_on_white_background_vector() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("money-falling-from-above-isolated-on-white-background-vector", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

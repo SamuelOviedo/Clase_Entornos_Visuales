@@ -117,38 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="posters-avion-despegando-al-fondo-del-atardecer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\posters-avion-despegando-al-fondo-del-atardecer.jpg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bienvenida" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bienvenida.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="a549ec58b66a38b3dc20421bdf0b3cc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a549ec58b66a38b3dc20421bdf0b3cc1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d27aa89f2351136f1cda1bd8af82b3f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d27aa89f2351136f1cda1bd8af82b3f1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bienvenida1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bienvenida1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="elegante-fondo-oscuro-detalles-dorados_23-2148433685" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elegante-fondo-oscuro-detalles-dorados_23-2148433685.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="posters-avion-despegando-al-fondo-del-atardecer.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\posters-avion-despegando-al-fondo-del-atardecer.jpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="money-falling-from-above-isolated-on-white-background-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\money-falling-from-above-isolated-on-white-background-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cf848b0025c0c2ec39280e8cb4806384" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cf848b0025c0c2ec39280e8cb4806384.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="silhouette-landing-airplane-runway-beautiful-260nw-619596536" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\silhouette-landing-airplane-runway-beautiful-260nw-619596536.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="0d516fdae393c3d30d05eb1251609cc4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0d516fdae393c3d30d05eb1251609cc4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

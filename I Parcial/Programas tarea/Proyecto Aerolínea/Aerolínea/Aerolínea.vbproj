@@ -73,11 +73,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Module1.vb" />
+    <Compile Include="PestañaPago.Designer.vb">
+      <DependentUpon>PestañaPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PestañaPago.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="PreciosViajes.Designer.vb">
+      <DependentUpon>PreciosViajes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreciosViajes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PestañaPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PestañaPrincipal.Designer.vb">
+      <DependentUpon>PestañaPrincipal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +110,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="PestañaPago.resx">
+      <DependentUpon>PestañaPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreciosViajes.resx">
+      <DependentUpon>PreciosViajes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PestañaPrincipal.resx">
+      <DependentUpon>PestañaPrincipal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -130,6 +149,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\elegante-fondo-oscuro-detalles-dorados_23-2148433685.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bienvenida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bienvenida1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d27aa89f2351136f1cda1bd8af82b3f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf848b0025c0c2ec39280e8cb4806384.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-falling-from-above-isolated-on-white-background-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a549ec58b66a38b3dc20421bdf0b3cc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0d516fdae393c3d30d05eb1251609cc4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
