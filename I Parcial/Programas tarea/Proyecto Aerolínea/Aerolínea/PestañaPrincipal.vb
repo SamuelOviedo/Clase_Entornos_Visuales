@@ -14,29 +14,31 @@
         ElseIf (chkIdayVuelta.Checked = False And chkSoloIda.Checked = False) Then
             MsgBox("Por favor seleccione una opción de Vuelos", vbExclamation, "Advertencia")
 
-
         ElseIf (chkPrimeraClase.Checked = False And chkeconomica.Checked = False) Then
             MsgBox("Por favor seleccione una opción de Clases", vbExclamation, "Advertencia")
-
 
         ElseIf (cmbLugarSalida.SelectedItem = Nothing) Then
             MsgBox("Por favor seleccione un lugar de salida", vbExclamation, "Advertencia")
 
-
         ElseIf (cmbLugarViajar.SelectedItem = Nothing) Then
             MsgBox("Por favor seleccione un destino", vbExclamation, "Advertencia")
 
-        ElseIf (mtbSalida.Text = " ") Then
+        ElseIf (chkIdayVuelta.Checked = True And mtbSalida.MaskCompleted = True And mtbRetorno.MaskCompleted = True) Then
+            MsgBox("Por favor ingrese una fecha de salida y retorno", vbExclamation, "Advertencia")
+
+        ElseIf (chkSoloIda.Checked = True And mtbSalida.MaskCompleted = True) Then
             MsgBox("Por favor ingrese una fecha de salida", vbExclamation, "Advertencia")
 
-        ElseIf (chkSoloIda.Checked = False And mtbRetorno.Text = " ") Then
-            MsgBox("Por favor ingrese una fecha de salida", vbExclamation, "Advertencia")
+        ElseIf (cmbPasajAdult.SelectedItem = Nothing) Then
+            MsgBox("Por favor ingrese un numero de pasajeros adultos", vbExclamation, "Advertencia")
 
+        ElseIf (cmbPasajNiños.SelectedItem = Nothing) Then
+            MsgBox("Por favor ingrese un numero de pasajeros niños", vbExclamation, "Advertencia")
         Else
-
             MsgBox("Sus boletos han sido facturados correctamente,
                 puede continuar con el pago", vbInformation, "Mensaje importante")
         End If
+
 
         'salida de total
 
