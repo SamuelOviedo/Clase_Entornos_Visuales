@@ -44,6 +44,7 @@ Partial Class Form1
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.txtHistorial = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -52,9 +53,9 @@ Partial Class Form1
         '
         Me.txtDatos.BackColor = System.Drawing.Color.Silver
         Me.txtDatos.Font = New System.Drawing.Font("Rockwell", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDatos.Location = New System.Drawing.Point(17, 26)
+        Me.txtDatos.Location = New System.Drawing.Point(120, 32)
         Me.txtDatos.Name = "txtDatos"
-        Me.txtDatos.Size = New System.Drawing.Size(621, 39)
+        Me.txtDatos.Size = New System.Drawing.Size(518, 39)
         Me.txtDatos.TabIndex = 0
         Me.txtDatos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -62,7 +63,7 @@ Partial Class Form1
         '
         Me.btn7.BackColor = System.Drawing.Color.DarkGray
         Me.btn7.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn7.Location = New System.Drawing.Point(12, 84)
+        Me.btn7.Location = New System.Drawing.Point(12, 108)
         Me.btn7.Name = "btn7"
         Me.btn7.Size = New System.Drawing.Size(92, 83)
         Me.btn7.TabIndex = 1
@@ -73,7 +74,7 @@ Partial Class Form1
         '
         Me.btn4.BackColor = System.Drawing.Color.DarkGray
         Me.btn4.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn4.Location = New System.Drawing.Point(12, 186)
+        Me.btn4.Location = New System.Drawing.Point(12, 210)
         Me.btn4.Name = "btn4"
         Me.btn4.Size = New System.Drawing.Size(92, 85)
         Me.btn4.TabIndex = 2
@@ -84,7 +85,7 @@ Partial Class Form1
         '
         Me.btn1.BackColor = System.Drawing.Color.DarkGray
         Me.btn1.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn1.Location = New System.Drawing.Point(12, 291)
+        Me.btn1.Location = New System.Drawing.Point(12, 315)
         Me.btn1.Name = "btn1"
         Me.btn1.Size = New System.Drawing.Size(92, 82)
         Me.btn1.TabIndex = 3
@@ -95,7 +96,7 @@ Partial Class Form1
         '
         Me.btnCero.BackColor = System.Drawing.Color.DarkGray
         Me.btnCero.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCero.Location = New System.Drawing.Point(12, 391)
+        Me.btnCero.Location = New System.Drawing.Point(12, 415)
         Me.btnCero.Name = "btnCero"
         Me.btnCero.Size = New System.Drawing.Size(92, 84)
         Me.btnCero.TabIndex = 4
@@ -106,7 +107,7 @@ Partial Class Form1
         '
         Me.btn2.BackColor = System.Drawing.Color.DarkGray
         Me.btn2.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn2.Location = New System.Drawing.Point(120, 291)
+        Me.btn2.Location = New System.Drawing.Point(120, 315)
         Me.btn2.Name = "btn2"
         Me.btn2.Size = New System.Drawing.Size(92, 82)
         Me.btn2.TabIndex = 7
@@ -117,7 +118,7 @@ Partial Class Form1
         '
         Me.btn5.BackColor = System.Drawing.Color.DarkGray
         Me.btn5.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn5.Location = New System.Drawing.Point(120, 188)
+        Me.btn5.Location = New System.Drawing.Point(120, 212)
         Me.btn5.Name = "btn5"
         Me.btn5.Size = New System.Drawing.Size(92, 85)
         Me.btn5.TabIndex = 6
@@ -128,7 +129,7 @@ Partial Class Form1
         '
         Me.btn8.BackColor = System.Drawing.Color.DarkGray
         Me.btn8.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn8.Location = New System.Drawing.Point(120, 86)
+        Me.btn8.Location = New System.Drawing.Point(120, 110)
         Me.btn8.Name = "btn8"
         Me.btn8.Size = New System.Drawing.Size(92, 83)
         Me.btn8.TabIndex = 5
@@ -139,7 +140,7 @@ Partial Class Form1
         '
         Me.btnPunto.BackColor = System.Drawing.Color.DarkGray
         Me.btnPunto.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPunto.Location = New System.Drawing.Point(120, 391)
+        Me.btnPunto.Location = New System.Drawing.Point(120, 415)
         Me.btnPunto.Name = "btnPunto"
         Me.btnPunto.Size = New System.Drawing.Size(92, 84)
         Me.btnPunto.TabIndex = 12
@@ -150,7 +151,7 @@ Partial Class Form1
         '
         Me.btn3.BackColor = System.Drawing.Color.DarkGray
         Me.btn3.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn3.Location = New System.Drawing.Point(228, 291)
+        Me.btn3.Location = New System.Drawing.Point(228, 315)
         Me.btn3.Name = "btn3"
         Me.btn3.Size = New System.Drawing.Size(92, 82)
         Me.btn3.TabIndex = 11
@@ -161,7 +162,7 @@ Partial Class Form1
         '
         Me.btn6.BackColor = System.Drawing.Color.DarkGray
         Me.btn6.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn6.Location = New System.Drawing.Point(228, 186)
+        Me.btn6.Location = New System.Drawing.Point(228, 210)
         Me.btn6.Name = "btn6"
         Me.btn6.Size = New System.Drawing.Size(92, 85)
         Me.btn6.TabIndex = 10
@@ -172,7 +173,7 @@ Partial Class Form1
         '
         Me.btn9.BackColor = System.Drawing.Color.DarkGray
         Me.btn9.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn9.Location = New System.Drawing.Point(228, 84)
+        Me.btn9.Location = New System.Drawing.Point(228, 108)
         Me.btn9.Name = "btn9"
         Me.btn9.Size = New System.Drawing.Size(92, 83)
         Me.btn9.TabIndex = 9
@@ -183,7 +184,7 @@ Partial Class Form1
         '
         Me.btnMas.BackColor = System.Drawing.Color.DarkGray
         Me.btnMas.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMas.Location = New System.Drawing.Point(339, 411)
+        Me.btnMas.Location = New System.Drawing.Point(339, 435)
         Me.btnMas.Name = "btnMas"
         Me.btnMas.Size = New System.Drawing.Size(79, 73)
         Me.btnMas.TabIndex = 16
@@ -194,7 +195,7 @@ Partial Class Form1
         '
         Me.btnMenos.BackColor = System.Drawing.Color.DarkGray
         Me.btnMenos.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMenos.Location = New System.Drawing.Point(339, 322)
+        Me.btnMenos.Location = New System.Drawing.Point(339, 346)
         Me.btnMenos.Name = "btnMenos"
         Me.btnMenos.Size = New System.Drawing.Size(79, 73)
         Me.btnMenos.TabIndex = 15
@@ -205,7 +206,7 @@ Partial Class Form1
         '
         Me.btnPor.BackColor = System.Drawing.Color.DarkGray
         Me.btnPor.Font = New System.Drawing.Font("Sigmar One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPor.Location = New System.Drawing.Point(339, 229)
+        Me.btnPor.Location = New System.Drawing.Point(339, 253)
         Me.btnPor.Name = "btnPor"
         Me.btnPor.Size = New System.Drawing.Size(79, 73)
         Me.btnPor.TabIndex = 14
@@ -216,7 +217,7 @@ Partial Class Form1
         '
         Me.btnEntre.BackColor = System.Drawing.Color.DarkGray
         Me.btnEntre.Font = New System.Drawing.Font("Sigmar One", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEntre.Location = New System.Drawing.Point(339, 138)
+        Me.btnEntre.Location = New System.Drawing.Point(339, 162)
         Me.btnEntre.Name = "btnEntre"
         Me.btnEntre.Size = New System.Drawing.Size(79, 73)
         Me.btnEntre.TabIndex = 13
@@ -228,7 +229,7 @@ Partial Class Form1
         Me.btnLimpiar.BackColor = System.Drawing.Color.Brown
         Me.btnLimpiar.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLimpiar.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.btnLimpiar.Location = New System.Drawing.Point(339, 77)
+        Me.btnLimpiar.Location = New System.Drawing.Point(339, 101)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(79, 45)
         Me.btnLimpiar.TabIndex = 17
@@ -239,7 +240,7 @@ Partial Class Form1
         '
         Me.btnIgual.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnIgual.Font = New System.Drawing.Font("Russo One", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnIgual.Location = New System.Drawing.Point(228, 391)
+        Me.btnIgual.Location = New System.Drawing.Point(228, 415)
         Me.btnIgual.Name = "btnIgual"
         Me.btnIgual.Size = New System.Drawing.Size(92, 84)
         Me.btnIgual.TabIndex = 18
@@ -249,6 +250,7 @@ Partial Class Form1
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.DarkSlateGray
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.btnIgual)
         Me.GroupBox1.Controls.Add(Me.btnLimpiar)
@@ -270,7 +272,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.txtDatos)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(666, 512)
+        Me.GroupBox1.Size = New System.Drawing.Size(666, 530)
         Me.GroupBox1.TabIndex = 19
         Me.GroupBox1.TabStop = False
         '
@@ -278,7 +280,7 @@ Partial Class Form1
         '
         Me.GroupBox2.Controls.Add(Me.txtHistorial)
         Me.GroupBox2.Controls.Add(Me.Label1)
-        Me.GroupBox2.Location = New System.Drawing.Point(440, 77)
+        Me.GroupBox2.Location = New System.Drawing.Point(440, 92)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(198, 407)
         Me.GroupBox2.TabIndex = 19
@@ -305,12 +307,22 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Historial"
         '
+        'Button1
+        '
+        Me.Button1.BackgroundImage = Global.Calculadora_básica.My.Resources.Resources.Home_font_awesome_svg
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.Location = New System.Drawing.Point(22, 21)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(72, 65)
+        Me.Button1.TabIndex = 20
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(695, 536)
+        Me.ClientSize = New System.Drawing.Size(691, 554)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
         Me.Text = "Calculadora"
@@ -344,4 +356,5 @@ Partial Class Form1
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents Label1 As Label
     Friend WithEvents txtHistorial As TextBox
+    Friend WithEvents Button1 As Button
 End Class

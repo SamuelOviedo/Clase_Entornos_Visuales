@@ -196,6 +196,10 @@
         signo = "+"
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+    End Sub
+
     Private Sub btnMenos_Click(sender As Object, e As EventArgs) Handles btnMenos.Click
         EvaluaHaceOperacion()
         operacion = "-"
@@ -227,6 +231,8 @@
     End Sub
 
     Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+
+        valor1 = valor1 & valor1
 
         txtHistorial.Text = valor1 & signo & valor2 & " = " & "5" + Chr(13) + Chr(10)
         txtDatos.Text = "0"
