@@ -287,6 +287,7 @@ Partial Class Form1
         'txtHistorial
         '
         Me.txtHistorial.BackColor = System.Drawing.Color.Silver
+        Me.txtHistorial.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtHistorial.Location = New System.Drawing.Point(23, 61)
         Me.txtHistorial.Multiline = True
         Me.txtHistorial.Name = "txtHistorial"

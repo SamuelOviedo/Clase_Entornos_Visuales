@@ -1,21 +1,15 @@
 ﻿Public Class Form1
 
-    Dim operacion, signo As String
+    Dim operacion, signo, punto, punto2 As String
     Dim numeroResultado As Nullable(Of Double) = Nothing
     Dim segundoValor As Nullable(Of Double) = Nothing
     Dim sePresionaOperador As Boolean
     Dim contador As Integer
+    Dim valor1, valor2, total As Double
 
     Private Sub btnIgual_Click(sender As Object, e As EventArgs) Handles btnIgual.Click
         EvaluaHaceOperacion()
         operacion = ""
-
-        'txtDatos.Text &= " = "
-        'txtDatos.Text &= 
-        'contador = 0
-        'txtHistorial.Text &= txtDatos.Text
-        'txtHistorial.Text &= Environment.NewLine
-        'txtHistorial.SelectionStart = txtHistorial.Text.Length
 
     End Sub
 
@@ -24,11 +18,11 @@
         txtDatos.Text &= "1"
 
         If contador = 0 Then
-            operacion = 1
-            contador += 1
-
+            valor1 = "1"
+            contador = 1
         Else
-            operacion &= 1
+            valor2 = "1"
+
         End If
     End Sub
 
@@ -37,11 +31,11 @@
         txtDatos.Text &= "2"
 
         If contador = 0 Then
-            operacion = 2
-            contador += 1
-
+            valor1 = "2"
+            contador = 1
         Else
-            operacion &= 2
+            valor2 = "2"
+
         End If
     End Sub
 
@@ -50,11 +44,11 @@
         txtDatos.Text &= "3"
 
         If contador = 0 Then
-            operacion = 3
-            contador += 1
-
+            valor1 = "3"
+            contador = 1
         Else
-            operacion &= 3
+            valor2 = "3"
+
         End If
     End Sub
 
@@ -63,11 +57,11 @@
         txtDatos.Text &= "4"
 
         If contador = 0 Then
-            operacion = 4
-            contador += 1
-
+            valor1 = "4"
+            contador = 1
         Else
-            operacion &= 4
+            valor2 = "4"
+
         End If
     End Sub
 
@@ -76,11 +70,11 @@
         txtDatos.Text &= "5"
 
         If contador = 0 Then
-            operacion = 5
-            contador += 1
-
+            valor1 = "5"
+            contador = 1
         Else
-            operacion &= 5
+            valor2 = "5"
+
         End If
     End Sub
 
@@ -89,11 +83,11 @@
         txtDatos.Text &= "6"
 
         If contador = 0 Then
-            operacion = 6
-            contador += 1
-
+            valor1 = "6"
+            contador = 1
         Else
-            operacion &= 6
+            valor2 = "6"
+
         End If
     End Sub
 
@@ -102,11 +96,11 @@
         txtDatos.Text &= "7"
 
         If contador = 0 Then
-            operacion = 7
-            contador += 1
-
+            valor1 = "7"
+            contador = 1
         Else
-            operacion &= 7
+            valor2 = "7"
+
         End If
     End Sub
 
@@ -115,11 +109,11 @@
         txtDatos.Text &= "8"
 
         If contador = 0 Then
-            operacion = 8
-            contador += 1
-
+            valor1 = "8"
+            contador = 1
         Else
-            operacion &= 8
+            valor2 = "8"
+
         End If
     End Sub
 
@@ -128,11 +122,11 @@
         txtDatos.Text &= "9"
 
         If contador = 0 Then
-            operacion = 9
-            contador += 1
-
+            valor1 = "9"
+            contador = 1
         Else
-            operacion &= 9
+            valor2 = "9"
+
         End If
     End Sub
 
@@ -141,11 +135,11 @@
         txtDatos.Text &= "0"
 
         If contador = 0 Then
-            operacion = 0
-            contador += 1
-
+            valor1 = "0"
+            contador = 1
         Else
-            operacion &= 0
+            valor2 = "0"
+
         End If
     End Sub
 
@@ -158,6 +152,13 @@
             txtDatos.Text &= "."
         End If
 
+        If contador = 0 Then
+            punto = "."
+            contador = 1
+        Else
+            punto2 = "."
+
+        End If
     End Sub
 
     Public Sub EvaluaHaceOperacion()
@@ -226,8 +227,11 @@
     End Sub
 
     Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+
+        txtHistorial.Text = valor1 & signo & valor2 & " = " & "5" + Chr(13) + Chr(10)
         txtDatos.Text = "0"
         numeroResultado = Nothing
+        contador = 0
 
     End Sub
 
