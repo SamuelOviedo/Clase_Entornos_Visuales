@@ -9,4 +9,10 @@
         End
 
     End Sub
+
+    Private Sub FórmulaGeneralBásicaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FórmulaGeneralBásicaToolStripMenuItem.Click
+        FormulaGeneralCuadratica.Show()
+        Me.Hide()
+
+    End Sub
 End Class

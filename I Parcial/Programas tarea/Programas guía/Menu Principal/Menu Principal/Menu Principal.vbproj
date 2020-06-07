@@ -79,6 +79,12 @@
     <Compile Include="CalculadoraBasica.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormulaGeneralCuadratica.Designer.vb">
+      <DependentUpon>FormulaGeneralCuadratica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormulaGeneralCuadratica.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MenuPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,9 @@
     <EmbeddedResource Include="CalculadoraBasica.resx">
       <DependentUpon>CalculadoraBasica.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormulaGeneralCuadratica.resx">
+      <DependentUpon>FormulaGeneralCuadratica.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.vb</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Home_font_awesome.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_font_awesome.svg1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
