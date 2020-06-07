@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("Calculadora básica")>
+<Assembly: AssemblyTitle("Menu Principal")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Calculadora básica")>
+<Assembly: AssemblyProduct("Menu Principal")>
 <Assembly: AssemblyCopyright("Copyright ©  2020")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-<Assembly: Guid("592a87eb-f7ac-46c9-9306-92e6909dd80e")>
+<Assembly: Guid("6307a700-9a2b-4964-bb67-7ac74ed605a6")>
 
 ' La información de versión de un ensamblado consta de los cuatro valores siguientes:
 '

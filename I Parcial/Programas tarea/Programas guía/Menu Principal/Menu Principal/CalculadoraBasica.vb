@@ -1,6 +1,6 @@
-﻿Public Class Form1
+﻿Public Class CalculadoraBasica
 
-    Dim operacion, signo, punto, punto2 As String
+    Dim operacion, signo As String
     Dim numeroResultado As Nullable(Of Double) = Nothing
     Dim segundoValor As Nullable(Of Double) = Nothing
     Dim sePresionaOperador As Boolean
@@ -154,13 +154,6 @@
             txtDatos.Text &= "."
         End If
 
-        If contador = 0 Then
-            punto = "."
-            contador = 1
-        Else
-            punto2 = "."
-
-        End If
     End Sub
 
     Public Sub EvaluaHaceOperacion()
@@ -189,7 +182,7 @@
                     lbHistorial.Items.Add(numeroResultado & signo & segundoValor & " = " & total)
 
             End Select
-            txtDatos.Text = numeroResultado
+            txtDatos.Text = total
 
         End If
         numeroResultado = segundoValor
@@ -202,16 +195,7 @@
         signo = " + "
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnHome.Click
-
-    End Sub
-
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-        lbHistorial.Items.Clear()
 
     End Sub
 
@@ -219,6 +203,21 @@
         EvaluaHaceOperacion()
         operacion = "-"
         signo = " - "
+
+    End Sub
+
+    Private Sub btn0_Click(sender As Object, e As EventArgs) Handles btnCero.Click
+
+    End Sub
+
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+        MenuPrincipal.Show()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub btnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
+        txtDatos.Clear()
 
     End Sub
 
@@ -254,4 +253,8 @@
 
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+        lbHistorial.Items.Clear()
+
+    End Sub
 End Class
