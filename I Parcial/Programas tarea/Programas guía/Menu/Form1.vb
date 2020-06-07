@@ -11,6 +11,8 @@
         EvaluaHaceOperacion()
         operacion = ""
 
+
+        contador = 0
     End Sub
 
     Private Sub btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
@@ -162,6 +164,7 @@
     End Sub
 
     Public Sub EvaluaHaceOperacion()
+        Dim total As Double
 
         sePresionaOperador = True
         segundoValor = Val(txtDatos.Text)
@@ -171,16 +174,19 @@
             Select Case operacion
 
                 Case "+"
-                    numeroResultado += segundoValor
-
+                    total = numeroResultado + segundoValor
+                    lbHistorial.Items.Add(numeroResultado & signo & segundoValor & " = " & total)
                 Case "-"
-                    numeroResultado -= segundoValor
+                    total = numeroResultado - segundoValor
+                    lbHistorial.Items.Add(numeroResultado & signo & segundoValor & " = " & total)
 
                 Case "*"
-                    numeroResultado *= segundoValor
+                    total = numeroResultado * segundoValor
+                    lbHistorial.Items.Add(numeroResultado & signo & segundoValor & " = " & total)
 
                 Case "/"
-                    numeroResultado /= segundoValor
+                    total = numeroResultado / segundoValor
+                    lbHistorial.Items.Add(numeroResultado & signo & segundoValor & " = " & total)
 
             End Select
             txtDatos.Text = numeroResultado
@@ -193,30 +199,39 @@
     Private Sub btnMas_Click(sender As Object, e As EventArgs) Handles btnMas.Click
         EvaluaHaceOperacion()
         operacion = "+"
-        signo = "+"
+        signo = " + "
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        lbHistorial.Items.Clear()
 
     End Sub
 
     Private Sub btnMenos_Click(sender As Object, e As EventArgs) Handles btnMenos.Click
         EvaluaHaceOperacion()
         operacion = "-"
-        signo = "-"
+        signo = " - "
 
     End Sub
 
     Private Sub btnPor_Click(sender As Object, e As EventArgs) Handles btnPor.Click
         EvaluaHaceOperacion()
         operacion = "*"
-        signo = "*"
+        signo = " x "
     End Sub
 
     Private Sub btnEntre_Click(sender As Object, e As EventArgs) Handles btnEntre.Click
         EvaluaHaceOperacion()
         operacion = "/"
-        signo = "/"
+        signo = " / "
     End Sub
 
     Public Sub EvaluaRestriccionConcatena()
@@ -234,10 +249,8 @@
 
         valor1 = valor1 & valor1
 
-        txtHistorial.Text = valor1 & signo & valor2 & " = " & "5" + Chr(13) + Chr(10)
         txtDatos.Text = "0"
         numeroResultado = Nothing
-        contador = 0
 
     End Sub
 

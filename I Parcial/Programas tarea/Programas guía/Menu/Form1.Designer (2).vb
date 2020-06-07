@@ -41,9 +41,10 @@ Partial Class Form1
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.btnIgual = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnHome = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.txtHistorial = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.lbHistorial = New System.Windows.Forms.ListBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -251,6 +252,7 @@ Partial Class Form1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.DarkSlateGray
         Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.btnHome)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.btnIgual)
         Me.GroupBox1.Controls.Add(Me.btnLimpiar)
@@ -272,29 +274,29 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.txtDatos)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(666, 530)
+        Me.GroupBox1.Size = New System.Drawing.Size(666, 551)
         Me.GroupBox1.TabIndex = 19
         Me.GroupBox1.TabStop = False
         '
+        'btnHome
+        '
+        Me.btnHome.BackgroundImage = Global.Calculadora_básica.My.Resources.Resources.Home_font_awesome_svg
+        Me.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnHome.Location = New System.Drawing.Point(22, 21)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.Size = New System.Drawing.Size(72, 65)
+        Me.btnHome.TabIndex = 20
+        Me.btnHome.UseVisualStyleBackColor = True
+        '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.txtHistorial)
+        Me.GroupBox2.Controls.Add(Me.lbHistorial)
         Me.GroupBox2.Controls.Add(Me.Label1)
         Me.GroupBox2.Location = New System.Drawing.Point(440, 92)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(198, 407)
         Me.GroupBox2.TabIndex = 19
         Me.GroupBox2.TabStop = False
-        '
-        'txtHistorial
-        '
-        Me.txtHistorial.BackColor = System.Drawing.Color.Silver
-        Me.txtHistorial.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtHistorial.Location = New System.Drawing.Point(23, 61)
-        Me.txtHistorial.Multiline = True
-        Me.txtHistorial.Name = "txtHistorial"
-        Me.txtHistorial.Size = New System.Drawing.Size(140, 323)
-        Me.txtHistorial.TabIndex = 1
         '
         'Label1
         '
@@ -307,22 +309,34 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Historial"
         '
+        'lbHistorial
+        '
+        Me.lbHistorial.BackColor = System.Drawing.Color.DarkGray
+        Me.lbHistorial.Font = New System.Drawing.Font("Rockwell", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbHistorial.FormattingEnabled = True
+        Me.lbHistorial.ItemHeight = 20
+        Me.lbHistorial.Location = New System.Drawing.Point(20, 59)
+        Me.lbHistorial.Name = "lbHistorial"
+        Me.lbHistorial.Size = New System.Drawing.Size(157, 324)
+        Me.lbHistorial.TabIndex = 1
+        '
         'Button1
         '
-        Me.Button1.BackgroundImage = Global.Calculadora_básica.My.Resources.Resources.Home_font_awesome_svg
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(22, 21)
+        Me.Button1.BackColor = System.Drawing.Color.SandyBrown
+        Me.Button1.Font = New System.Drawing.Font("Shrikhand", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(440, 505)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(72, 65)
-        Me.Button1.TabIndex = 20
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Size = New System.Drawing.Size(198, 27)
+        Me.Button1.TabIndex = 21
+        Me.Button1.Text = "Limpiar Historial"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(691, 554)
+        Me.ClientSize = New System.Drawing.Size(691, 575)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
         Me.Text = "Calculadora"
@@ -355,6 +369,7 @@ Partial Class Form1
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents txtHistorial As TextBox
+    Friend WithEvents btnHome As Button
+    Friend WithEvents lbHistorial As ListBox
     Friend WithEvents Button1 As Button
 End Class
