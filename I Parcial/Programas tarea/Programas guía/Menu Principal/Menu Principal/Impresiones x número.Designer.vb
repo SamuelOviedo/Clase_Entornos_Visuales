@@ -27,6 +27,8 @@ Partial Class Impresiones_x_número
         Me.txtDatos = New System.Windows.Forms.TextBox()
         Me.btnEnviar = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.txtTotalNum = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.txtTotal = New System.Windows.Forms.TextBox()
         Me.txtNegativos = New System.Windows.Forms.TextBox()
         Me.txtPositivos = New System.Windows.Forms.TextBox()
@@ -41,40 +43,41 @@ Partial Class Impresiones_x_número
         Me.cbbValores = New System.Windows.Forms.ComboBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.txtTotalNum = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Label8)
         Me.GroupBox1.Controls.Add(Me.Button4)
         Me.GroupBox1.Controls.Add(Me.txtDatos)
         Me.GroupBox1.Controls.Add(Me.btnEnviar)
         Me.GroupBox1.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(25, 112)
+        Me.GroupBox1.Location = New System.Drawing.Point(25, 100)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(373, 327)
+        Me.GroupBox1.Size = New System.Drawing.Size(373, 368)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Ingresar datos"
+        Me.GroupBox1.Text = "Ingrese la cantidad de"
         '
         'Button4
         '
+        Me.Button4.BackColor = System.Drawing.Color.DarkGray
         Me.Button4.Font = New System.Drawing.Font("Russo One", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(108, 271)
+        Me.Button4.Location = New System.Drawing.Point(194, 316)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(164, 37)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "Limpiar"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'txtDatos
         '
         Me.txtDatos.BackColor = System.Drawing.Color.Silver
         Me.txtDatos.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDatos.Location = New System.Drawing.Point(27, 85)
+        Me.txtDatos.Location = New System.Drawing.Point(62, 102)
         Me.txtDatos.Name = "txtDatos"
         Me.txtDatos.Size = New System.Drawing.Size(249, 35)
         Me.txtDatos.TabIndex = 1
@@ -82,9 +85,9 @@ Partial Class Impresiones_x_número
         'btnEnviar
         '
         Me.btnEnviar.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnEnviar.Location = New System.Drawing.Point(155, 143)
+        Me.btnEnviar.Location = New System.Drawing.Point(91, 155)
         Me.btnEnviar.Name = "btnEnviar"
-        Me.btnEnviar.Size = New System.Drawing.Size(197, 60)
+        Me.btnEnviar.Size = New System.Drawing.Size(199, 45)
         Me.btnEnviar.TabIndex = 0
         Me.btnEnviar.Text = "Enviar"
         Me.btnEnviar.UseVisualStyleBackColor = False
@@ -108,10 +111,30 @@ Partial Class Impresiones_x_número
         Me.GroupBox2.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(431, 17)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(434, 422)
+        Me.GroupBox2.Size = New System.Drawing.Size(434, 451)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Salida de datos"
+        '
+        'txtTotalNum
+        '
+        Me.txtTotalNum.BackColor = System.Drawing.Color.SlateGray
+        Me.txtTotalNum.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTotalNum.Location = New System.Drawing.Point(67, 266)
+        Me.txtTotalNum.Name = "txtTotalNum"
+        Me.txtTotalNum.ReadOnly = True
+        Me.txtTotalNum.Size = New System.Drawing.Size(108, 35)
+        Me.txtTotalNum.TabIndex = 13
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Russo One", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(28, 238)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(120, 25)
+        Me.Label7.TabIndex = 12
+        Me.Label7.Text = "Total num:"
         '
         'txtTotal
         '
@@ -119,6 +142,7 @@ Partial Class Impresiones_x_número
         Me.txtTotal.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTotal.Location = New System.Drawing.Point(252, 266)
         Me.txtTotal.Name = "txtTotal"
+        Me.txtTotal.ReadOnly = True
         Me.txtTotal.Size = New System.Drawing.Size(166, 35)
         Me.txtTotal.TabIndex = 11
         '
@@ -128,6 +152,7 @@ Partial Class Impresiones_x_número
         Me.txtNegativos.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNegativos.Location = New System.Drawing.Point(252, 185)
         Me.txtNegativos.Name = "txtNegativos"
+        Me.txtNegativos.ReadOnly = True
         Me.txtNegativos.Size = New System.Drawing.Size(128, 35)
         Me.txtNegativos.TabIndex = 10
         '
@@ -137,6 +162,7 @@ Partial Class Impresiones_x_número
         Me.txtPositivos.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPositivos.Location = New System.Drawing.Point(56, 185)
         Me.txtPositivos.Name = "txtPositivos"
+        Me.txtPositivos.ReadOnly = True
         Me.txtPositivos.Size = New System.Drawing.Size(128, 35)
         Me.txtPositivos.TabIndex = 9
         '
@@ -146,6 +172,7 @@ Partial Class Impresiones_x_número
         Me.txtImpares.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtImpares.Location = New System.Drawing.Point(252, 80)
         Me.txtImpares.Name = "txtImpares"
+        Me.txtImpares.ReadOnly = True
         Me.txtImpares.Size = New System.Drawing.Size(128, 35)
         Me.txtImpares.TabIndex = 8
         '
@@ -155,6 +182,7 @@ Partial Class Impresiones_x_número
         Me.txtPares.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPares.Location = New System.Drawing.Point(56, 80)
         Me.txtPares.Name = "txtPares"
+        Me.txtPares.ReadOnly = True
         Me.txtPares.Size = New System.Drawing.Size(128, 35)
         Me.txtPares.TabIndex = 7
         '
@@ -230,7 +258,7 @@ Partial Class Impresiones_x_número
         '
         Me.Button3.BackColor = System.Drawing.Color.Firebrick
         Me.Button3.Font = New System.Drawing.Font("Shrikhand", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(692, 445)
+        Me.Button3.Location = New System.Drawing.Point(692, 480)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(173, 45)
         Me.Button3.TabIndex = 3
@@ -247,37 +275,28 @@ Partial Class Impresiones_x_número
         Me.Button2.TabIndex = 2
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Label7
+        'Label8
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Russo One", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(28, 238)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(120, 25)
-        Me.Label7.TabIndex = 12
-        Me.Label7.Text = "Total num:"
-        '
-        'txtTotalNum
-        '
-        Me.txtTotalNum.BackColor = System.Drawing.Color.SlateGray
-        Me.txtTotalNum.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTotalNum.Location = New System.Drawing.Point(67, 266)
-        Me.txtTotalNum.Name = "txtTotalNum"
-        Me.txtTotalNum.Size = New System.Drawing.Size(108, 35)
-        Me.txtTotalNum.TabIndex = 13
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(189, 31)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(132, 29)
+        Me.Label8.TabIndex = 6
+        Me.Label8.Text = "numeros :"
         '
         'Impresiones_x_número
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(882, 502)
+        Me.ClientSize = New System.Drawing.Size(882, 537)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "Impresiones_x_número"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Impresiones_x_número"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
@@ -308,4 +327,5 @@ Partial Class Impresiones_x_número
     Friend WithEvents Button4 As Button
     Friend WithEvents txtTotalNum As TextBox
     Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
 End Class

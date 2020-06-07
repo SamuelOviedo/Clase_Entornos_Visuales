@@ -79,6 +79,12 @@
     <Compile Include="CalculadoraBasica.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Empresa ventas.Designer.vb">
+      <DependentUpon>Empresa ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empresa ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormulaGeneralCuadratica.Designer.vb">
       <DependentUpon>FormulaGeneralCuadratica.vb</DependentUpon>
     </Compile>
@@ -113,10 +119,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SAR.Designer.vb">
+      <DependentUpon>SAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CalculadoraBasica.resx">
       <DependentUpon>CalculadoraBasica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empresa ventas.resx">
+      <DependentUpon>Empresa ventas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormulaGeneralCuadratica.resx">
       <DependentUpon>FormulaGeneralCuadratica.vb</DependentUpon>
@@ -132,6 +147,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAR.resx">
+      <DependentUpon>SAR.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +172,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Home_font_awesome.svg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elegante-fondo-oscuro-detalles-dorados_23-2148433685.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45403517-fondo-inconsútil-de-símbolos-matemáticos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c695f3079d7536e2d9ec79a6ed2dfe36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-1053616532-640x640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Los-Mejores-Fondos-para-Iphone-X-5.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

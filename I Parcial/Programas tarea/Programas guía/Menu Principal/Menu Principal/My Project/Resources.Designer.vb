@@ -63,6 +63,56 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _45403517_fondo_inconsútil_de_símbolos_matemáticos() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("45403517-fondo-inconsútil-de-símbolos-matemáticos", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property c695f3079d7536e2d9ec79a6ed2dfe36() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("c695f3079d7536e2d9ec79a6ed2dfe36", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property descarga() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("descarga", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property elegante_fondo_oscuro_detalles_dorados_23_2148433685() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("elegante-fondo-oscuro-detalles-dorados_23-2148433685", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property gettyimages_1053616532_640x640() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("gettyimages-1053616532-640x640", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Home_font_awesome_svg() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Home_font_awesome.svg", resourceCulture)
@@ -86,6 +136,16 @@ Namespace My.Resources
         Friend ReadOnly Property Home_font_awesome2() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Home_font_awesome2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Los_Mejores_Fondos_para_Iphone_X_5() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Los-Mejores-Fondos-para-Iphone-X-5", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -1,23 +1,33 @@
 ﻿Public Class MenuPrincipal
-    Private Sub CalculadoraBásicaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalculadoraBásicaToolStripMenuItem.Click
+
+    Private Sub CalculadoraBásicaToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles CalculadoraBásicaToolStripMenuItem1.Click
         CalculadoraBasica.Show()
         Me.Hide()
-
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub FórmulaGeneralCuadráticaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FórmulaGeneralCuadráticaToolStripMenuItem.Click
+        FormulaGeneralCuadratica.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub ImpresionesXNúmerosToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ImpresionesXNúmerosToolStripMenuItem1.Click
+        Impresiones_x_número.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
         End
 
     End Sub
 
-    Private Sub FórmulaGeneralBásicaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FórmulaGeneralBásicaToolStripMenuItem.Click
-        FormulaGeneralCuadratica.Show()
+    Private Sub EmpresaVentasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EmpresaVentasToolStripMenuItem.Click
+        Empresa_ventas.Show()
         Me.Hide()
 
     End Sub
 
-    Private Sub ImpresionesXNúmerosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ImpresionesXNúmerosToolStripMenuItem.Click
-        Impresiones_x_número.Show()
+    Private Sub SARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SARToolStripMenuItem.Click
+        SAR.Show()
         Me.Hide()
 
     End Sub
