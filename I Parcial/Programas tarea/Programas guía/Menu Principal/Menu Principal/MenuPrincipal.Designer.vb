@@ -26,16 +26,17 @@ Partial Class MenuPrincipal
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.InicioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CalculadoraBásicaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FórmulaGeneralBásicaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.FórmulaGeneralBásicaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ImpresionesXNúmerosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InicioToolStripMenuItem, Me.CalculadoraBásicaToolStripMenuItem, Me.FórmulaGeneralBásicaToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InicioToolStripMenuItem, Me.CalculadoraBásicaToolStripMenuItem, Me.FórmulaGeneralBásicaToolStripMenuItem, Me.ImpresionesXNúmerosToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(735, 28)
@@ -53,6 +54,12 @@ Partial Class MenuPrincipal
         Me.CalculadoraBásicaToolStripMenuItem.Name = "CalculadoraBásicaToolStripMenuItem"
         Me.CalculadoraBásicaToolStripMenuItem.Size = New System.Drawing.Size(148, 24)
         Me.CalculadoraBásicaToolStripMenuItem.Text = "Calculadora básica"
+        '
+        'FórmulaGeneralBásicaToolStripMenuItem
+        '
+        Me.FórmulaGeneralBásicaToolStripMenuItem.Name = "FórmulaGeneralBásicaToolStripMenuItem"
+        Me.FórmulaGeneralBásicaToolStripMenuItem.Size = New System.Drawing.Size(204, 24)
+        Me.FórmulaGeneralBásicaToolStripMenuItem.Text = "Fórmula general cuadrática"
         '
         'Button1
         '
@@ -75,11 +82,11 @@ Partial Class MenuPrincipal
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Bienvenido(a) " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "                     al menu"
         '
-        'FórmulaGeneralBásicaToolStripMenuItem
+        'ImpresionesXNúmerosToolStripMenuItem
         '
-        Me.FórmulaGeneralBásicaToolStripMenuItem.Name = "FórmulaGeneralBásicaToolStripMenuItem"
-        Me.FórmulaGeneralBásicaToolStripMenuItem.Size = New System.Drawing.Size(204, 24)
-        Me.FórmulaGeneralBásicaToolStripMenuItem.Text = "Fórmula general cuadrática"
+        Me.ImpresionesXNúmerosToolStripMenuItem.Name = "ImpresionesXNúmerosToolStripMenuItem"
+        Me.ImpresionesXNúmerosToolStripMenuItem.Size = New System.Drawing.Size(177, 24)
+        Me.ImpresionesXNúmerosToolStripMenuItem.Text = "Impresiones X números"
         '
         'MenuPrincipal
         '
@@ -107,4 +114,5 @@ Partial Class MenuPrincipal
     Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents FórmulaGeneralBásicaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ImpresionesXNúmerosToolStripMenuItem As ToolStripMenuItem
 End Class

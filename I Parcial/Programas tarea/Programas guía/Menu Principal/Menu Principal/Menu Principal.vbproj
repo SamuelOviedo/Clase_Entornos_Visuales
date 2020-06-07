@@ -85,6 +85,12 @@
     <Compile Include="FormulaGeneralCuadratica.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Impresiones x número.Designer.vb">
+      <DependentUpon>Impresiones x número.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impresiones x número.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MenuPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     <EmbeddedResource Include="FormulaGeneralCuadratica.resx">
       <DependentUpon>FormulaGeneralCuadratica.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Impresiones x número.resx">
+      <DependentUpon>Impresiones x número.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.vb</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +151,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Home_font_awesome.svg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_font_awesome.svg2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

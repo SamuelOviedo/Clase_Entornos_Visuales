@@ -15,4 +15,10 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub ImpresionesXNúmerosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ImpresionesXNúmerosToolStripMenuItem.Click
+        Impresiones_x_número.Show()
+        Me.Hide()
+
+    End Sub
 End Class
