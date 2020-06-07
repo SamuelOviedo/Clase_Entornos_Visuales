@@ -167,6 +167,7 @@
             Select Case operacion
 
                 Case "+"
+
                     total = numeroResultado + segundoValor
                     lbHistorial.Items.Add(numeroResultado & signo & segundoValor & " = " & total)
                 Case "-"
@@ -195,9 +196,6 @@
         signo = " + "
     End Sub
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 
     Private Sub btnMenos_Click(sender As Object, e As EventArgs) Handles btnMenos.Click
         EvaluaHaceOperacion()
@@ -233,6 +231,16 @@
         signo = " / "
     End Sub
 
+    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+
+    End Sub
+
+    Private Sub btnRespuesta_Click(sender As Object, e As EventArgs)
+        numeroResultado = total
+        txtDatos.Text = numeroResultado
+
+    End Sub
+
     Public Sub EvaluaRestriccionConcatena()
         If sePresionaOperador = True Then
             txtDatos.Text = ""
@@ -245,8 +253,6 @@
     End Sub
 
     Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
-
-        valor1 = valor1 & valor1
 
         txtDatos.Text = "0"
         numeroResultado = Nothing

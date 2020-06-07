@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class CalculadoraBasica
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class CalculadoraBasica
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CalculadoraBasica))
         Me.btn7 = New System.Windows.Forms.Button()
@@ -42,16 +42,14 @@ Partial Class CalculadoraBasica
         Me.btnMas = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.lbHistorial = New System.Windows.Forms.ListBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btnHome = New System.Windows.Forms.Button()
         Me.txtDatos = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -102,7 +100,7 @@ Partial Class CalculadoraBasica
         'btnPunto
         '
         Me.btnPunto.BackColor = System.Drawing.Color.Silver
-        Me.btnPunto.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPunto.Font = New System.Drawing.Font("Russo One", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPunto.Location = New System.Drawing.Point(122, 433)
         Me.btnPunto.Name = "btnPunto"
         Me.btnPunto.Size = New System.Drawing.Size(82, 80)
@@ -190,7 +188,7 @@ Partial Class CalculadoraBasica
         'btnBorrar
         '
         Me.btnBorrar.BackColor = System.Drawing.Color.Brown
-        Me.btnBorrar.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBorrar.Font = New System.Drawing.Font("Russo One", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBorrar.Location = New System.Drawing.Point(334, 125)
         Me.btnBorrar.Name = "btnBorrar"
         Me.btnBorrar.Size = New System.Drawing.Size(87, 64)
@@ -266,28 +264,40 @@ Partial Class CalculadoraBasica
         Me.GroupBox1.Controls.Add(Me.btn7)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 10)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(703, 539)
+        Me.GroupBox1.Size = New System.Drawing.Size(686, 555)
         Me.GroupBox1.TabIndex = 17
         Me.GroupBox1.TabStop = False
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.Label1)
         Me.GroupBox3.Controls.Add(Me.btnLimpiar)
         Me.GroupBox3.Controls.Add(Me.lbHistorial)
-        Me.GroupBox3.Controls.Add(Me.GroupBox4)
-        Me.GroupBox3.Location = New System.Drawing.Point(446, 114)
+        Me.GroupBox3.Location = New System.Drawing.Point(447, 114)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(234, 412)
+        Me.GroupBox3.Size = New System.Drawing.Size(216, 428)
         Me.GroupBox3.TabIndex = 18
         Me.GroupBox3.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label1.Font = New System.Drawing.Font("Sigmar One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(12, 18)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(161, 41)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Historial"
         '
         'btnLimpiar
         '
         Me.btnLimpiar.BackColor = System.Drawing.Color.Teal
         Me.btnLimpiar.Font = New System.Drawing.Font("Russo One", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLimpiar.Location = New System.Drawing.Point(15, 370)
+        Me.btnLimpiar.Location = New System.Drawing.Point(13, 388)
         Me.btnLimpiar.Name = "btnLimpiar"
-        Me.btnLimpiar.Size = New System.Drawing.Size(207, 28)
+        Me.btnLimpiar.Size = New System.Drawing.Size(190, 31)
         Me.btnLimpiar.TabIndex = 3
         Me.btnLimpiar.Text = "Limpiar"
         Me.btnLimpiar.UseVisualStyleBackColor = False
@@ -298,30 +308,10 @@ Partial Class CalculadoraBasica
         Me.lbHistorial.Font = New System.Drawing.Font("Rockwell", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbHistorial.FormattingEnabled = True
         Me.lbHistorial.ItemHeight = 22
-        Me.lbHistorial.Location = New System.Drawing.Point(15, 86)
+        Me.lbHistorial.Location = New System.Drawing.Point(12, 70)
         Me.lbHistorial.Name = "lbHistorial"
-        Me.lbHistorial.Size = New System.Drawing.Size(208, 268)
+        Me.lbHistorial.Size = New System.Drawing.Size(191, 312)
         Me.lbHistorial.TabIndex = 2
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.GroupBox4.Controls.Add(Me.Label1)
-        Me.GroupBox4.Location = New System.Drawing.Point(15, 21)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(209, 53)
-        Me.GroupBox4.TabIndex = 1
-        Me.GroupBox4.TabStop = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Sigmar One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(6, 8)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(159, 39)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Historial"
         '
         'GroupBox2
         '
@@ -329,7 +319,7 @@ Partial Class CalculadoraBasica
         Me.GroupBox2.Controls.Add(Me.txtDatos)
         Me.GroupBox2.Location = New System.Drawing.Point(15, 12)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(666, 96)
+        Me.GroupBox2.Size = New System.Drawing.Size(648, 96)
         Me.GroupBox2.TabIndex = 17
         Me.GroupBox2.TabStop = False
         '
@@ -346,9 +336,9 @@ Partial Class CalculadoraBasica
         'txtDatos
         '
         Me.txtDatos.Font = New System.Drawing.Font("Rockwell", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDatos.Location = New System.Drawing.Point(141, 30)
+        Me.txtDatos.Location = New System.Drawing.Point(141, 25)
         Me.txtDatos.Name = "txtDatos"
-        Me.txtDatos.Size = New System.Drawing.Size(470, 43)
+        Me.txtDatos.Size = New System.Drawing.Size(464, 43)
         Me.txtDatos.TabIndex = 0
         Me.txtDatos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -357,7 +347,7 @@ Partial Class CalculadoraBasica
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
-        Me.ClientSize = New System.Drawing.Size(731, 556)
+        Me.ClientSize = New System.Drawing.Size(713, 576)
         Me.Controls.Add(Me.GroupBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "CalculadoraBasica"
@@ -365,8 +355,7 @@ Partial Class CalculadoraBasica
         Me.Text = "CalculadoraBasica"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
+        Me.GroupBox3.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
@@ -395,8 +384,7 @@ Partial Class CalculadoraBasica
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents txtDatos As TextBox
     Friend WithEvents lbHistorial As ListBox
-    Friend WithEvents GroupBox4 As GroupBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents btnHome As Button
     Friend WithEvents btnLimpiar As Button
+    Friend WithEvents Label1 As Label
 End Class
