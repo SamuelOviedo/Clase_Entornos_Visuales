@@ -16,7 +16,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnCalcular.Click
 
-        Dim sueldo As Double
+        Dim sueldo, deduccion As Double
 
         sueldo = Val(txtSueldo.Text)
 
@@ -41,15 +41,21 @@
 
         ElseIf (sueldo >= 16528.93 And sueldo <= 23536.61) Then
             chkDeduccion.Checked = True
+            deduccion = sueldo * 0.15
             txtSueldoNeto.Text = sueldo - (sueldo * 0.15)
+            txtDeduccion.Text = deduccion
 
         ElseIf (sueldo > 23536.62 And sueldo <= 50317.69) Then
             chkDeduccion.Checked = True
+            deduccion = sueldo * 0.2
             txtSueldoNeto.Text = sueldo - (sueldo * 0.2)
+            txtDeduccion.Text = deduccion
 
         ElseIf (sueldo > 50317.69) Then
             chkDeduccion.Checked = True
+            deduccion = sueldo * 0.25
             txtSueldoNeto.Text = sueldo - (sueldo * 0.25)
+            txtDeduccion.Text = deduccion
         End If
 
         txtImpResultado.Text = sueldo
@@ -74,6 +80,7 @@
         chkExcento.Checked = False
         txtSueldoNeto.Clear()
         txtImpResultado.Clear()
+        txtDeduccion.Clear()
 
     End Sub
 End Class

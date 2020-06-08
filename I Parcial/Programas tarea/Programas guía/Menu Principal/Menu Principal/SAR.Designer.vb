@@ -29,14 +29,19 @@ Partial Class SAR
         Me.chkExcento = New System.Windows.Forms.CheckBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtSueldoNeto = New System.Windows.Forms.TextBox()
-        Me.txtSueldo = New System.Windows.Forms.TextBox()
         Me.btnCalcular = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtSueldo = New System.Windows.Forms.TextBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.txtImpResultado = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtSueldoNeto = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtDeduccion = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -46,7 +51,7 @@ Partial Class SAR
         '
         Me.btnSalir.BackColor = System.Drawing.Color.Firebrick
         Me.btnSalir.Font = New System.Drawing.Font("Shrikhand", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSalir.Location = New System.Drawing.Point(634, 451)
+        Me.btnSalir.Location = New System.Drawing.Point(634, 492)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(154, 42)
         Me.btnSalir.TabIndex = 0
@@ -100,9 +105,9 @@ Partial Class SAR
         Me.GroupBox1.Controls.Add(Me.chkExcento)
         Me.GroupBox1.Controls.Add(Me.chkDeduccion)
         Me.GroupBox1.Font = New System.Drawing.Font("Shrikhand", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(443, 47)
+        Me.GroupBox1.Location = New System.Drawing.Point(442, 33)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(223, 182)
+        Me.GroupBox1.Size = New System.Drawing.Size(238, 182)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Aplica"
@@ -113,55 +118,12 @@ Partial Class SAR
         Me.GroupBox2.Controls.Add(Me.btnCalcular)
         Me.GroupBox2.Controls.Add(Me.txtSueldo)
         Me.GroupBox2.Font = New System.Drawing.Font("Shrikhand", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(24, 30)
+        Me.GroupBox2.Location = New System.Drawing.Point(25, 13)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(363, 216)
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Ingresar sueldo"
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.BackColor = System.Drawing.Color.Silver
-        Me.GroupBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.GroupBox3.Controls.Add(Me.txtImpResultado)
-        Me.GroupBox3.Controls.Add(Me.Label2)
-        Me.GroupBox3.Controls.Add(Me.Button1)
-        Me.GroupBox3.Controls.Add(Me.txtSueldoNeto)
-        Me.GroupBox3.Controls.Add(Me.Label1)
-        Me.GroupBox3.Font = New System.Drawing.Font("Shrikhand", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(86, 262)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(627, 183)
-        Me.GroupBox3.TabIndex = 6
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Resultados"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(281, 46)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(169, 27)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Sueldo neto:"
-        '
-        'txtSueldoNeto
-        '
-        Me.txtSueldoNeto.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSueldoNeto.Location = New System.Drawing.Point(339, 76)
-        Me.txtSueldoNeto.Name = "txtSueldoNeto"
-        Me.txtSueldoNeto.Size = New System.Drawing.Size(271, 35)
-        Me.txtSueldoNeto.TabIndex = 1
-        '
-        'txtSueldo
-        '
-        Me.txtSueldo.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSueldo.Location = New System.Drawing.Point(39, 64)
-        Me.txtSueldo.Name = "txtSueldo"
-        Me.txtSueldo.Size = New System.Drawing.Size(194, 35)
-        Me.txtSueldo.TabIndex = 0
         '
         'btnCalcular
         '
@@ -174,34 +136,127 @@ Partial Class SAR
         Me.btnCalcular.Text = "Calcular"
         Me.btnCalcular.UseVisualStyleBackColor = False
         '
+        'txtSueldo
+        '
+        Me.txtSueldo.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSueldo.Location = New System.Drawing.Point(39, 64)
+        Me.txtSueldo.Name = "txtSueldo"
+        Me.txtSueldo.Size = New System.Drawing.Size(194, 35)
+        Me.txtSueldo.TabIndex = 0
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.BackColor = System.Drawing.Color.Silver
+        Me.GroupBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.GroupBox3.Controls.Add(Me.Label6)
+        Me.GroupBox3.Controls.Add(Me.Label5)
+        Me.GroupBox3.Controls.Add(Me.Label4)
+        Me.GroupBox3.Controls.Add(Me.txtDeduccion)
+        Me.GroupBox3.Controls.Add(Me.Label3)
+        Me.GroupBox3.Controls.Add(Me.txtImpResultado)
+        Me.GroupBox3.Controls.Add(Me.Label2)
+        Me.GroupBox3.Controls.Add(Me.Button1)
+        Me.GroupBox3.Controls.Add(Me.txtSueldoNeto)
+        Me.GroupBox3.Controls.Add(Me.Label1)
+        Me.GroupBox3.Font = New System.Drawing.Font("Shrikhand", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.Location = New System.Drawing.Point(84, 235)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(641, 251)
+        Me.GroupBox3.TabIndex = 6
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Resultados"
+        '
+        'txtImpResultado
+        '
+        Me.txtImpResultado.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImpResultado.Location = New System.Drawing.Point(68, 104)
+        Me.txtImpResultado.Name = "txtImpResultado"
+        Me.txtImpResultado.Size = New System.Drawing.Size(186, 35)
+        Me.txtImpResultado.TabIndex = 4
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(19, 72)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(102, 29)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Sueldo:"
+        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.SkyBlue
         Me.Button1.Font = New System.Drawing.Font("Shrikhand", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(202, 129)
+        Me.Button1.Location = New System.Drawing.Point(199, 199)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(230, 36)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Limpiar"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Label2
+        'txtSueldoNeto
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(39, 46)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(98, 27)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Sueldo:"
+        Me.txtSueldoNeto.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSueldoNeto.Location = New System.Drawing.Point(348, 158)
+        Me.txtSueldoNeto.Name = "txtSueldoNeto"
+        Me.txtSueldoNeto.Size = New System.Drawing.Size(271, 35)
+        Me.txtSueldoNeto.TabIndex = 1
         '
-        'txtImpResultado
+        'Label1
         '
-        Me.txtImpResultado.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImpResultado.Location = New System.Drawing.Point(69, 76)
-        Me.txtImpResultado.Name = "txtImpResultado"
-        Me.txtImpResultado.Size = New System.Drawing.Size(186, 35)
-        Me.txtImpResultado.TabIndex = 4
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(273, 126)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(176, 29)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Sueldo neto:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Russo One", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(253, 37)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(149, 27)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "Deduccion:"
+        '
+        'txtDeduccion
+        '
+        Me.txtDeduccion.Font = New System.Drawing.Font("Rockwell", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDeduccion.Location = New System.Drawing.Point(348, 68)
+        Me.txtDeduccion.Name = "txtDeduccion"
+        Me.txtDeduccion.Size = New System.Drawing.Size(271, 35)
+        Me.txtDeduccion.TabIndex = 6
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(304, 68)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(38, 35)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Text = "L."
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(304, 158)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(38, 35)
+        Me.Label5.TabIndex = 8
+        Me.Label5.Text = "L."
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(24, 104)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(38, 35)
+        Me.Label6.TabIndex = 9
+        Me.Label6.Text = "L."
         '
         'SAR
         '
@@ -209,7 +264,7 @@ Partial Class SAR
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 505)
+        Me.ClientSize = New System.Drawing.Size(800, 546)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -243,4 +298,9 @@ Partial Class SAR
     Friend WithEvents Button1 As Button
     Friend WithEvents txtImpResultado As TextBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents txtDeduccion As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
 End Class
